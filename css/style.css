@@ -32,7 +32,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
 .header {
     z-index: 5;
 }
@@ -46,6 +45,22 @@ html {
     background-color: rgba(0,0,0,.9);
     z-index: 20;
 }
+#slider {
+    max-width: 1200px;
+    width: 80vw;
+    max-height: 600px;
+    overflow: hidden;
+}
+.carousel-inner {
+    overflow: hidden;
+    max-height: 600px;
+}
+
+.carousel-inner img {
+    object-fit: cover;
+}
+
+
 
 .closeBtn {
     position: absolute;
