@@ -14,6 +14,10 @@ body {
     overflow-x: hidden;
 }
 
+section,
+.container{
+    overflow-x: hidden
+}
 
 ul {
     list-style: none;
@@ -27,11 +31,6 @@ a {
 html {
     scroll-behavior: smooth;
 }
-
-.border {
-    border: 2px solid white;
-}
-
 
 
 .header {
@@ -50,8 +49,8 @@ html {
 
 .closeBtn {
     position: absolute;
-    top: 1rem;
-    right: 4rem;
+    top: 1.2rem;
+    right: 5rem;
     color: #fff;
     font-size: 2.5rem;
 }
